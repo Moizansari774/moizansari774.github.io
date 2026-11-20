@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#E8E8E8">
+    <title>Abdul Moiz Ansari • About</title>
+    <meta name="description" content="Abdul Moiz Ansari — Frontend Developer, specialized in React.js, WordPress and graphic design. Based in Karachi, Pakistan, working worldwide.">
+    <meta property="og:title" content="Abdul Moiz Ansari • About">
+    <meta property="og:description" content="Abdul Moiz Ansari — Frontend Developer, specialized in React.js, WordPress and graphic design. Based in Karachi, Pakistan, working worldwide.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><circle cx='32' cy='32' r='32' fill='%23BFDB39'/><text x='32' y='43' font-family='Arial' font-size='30' text-anchor='middle' fill='%2318231D'>A</text></svg>">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../assets/css/style.css?v=10">
+    <script>
+        // Hide animated elements until main.js runs; if it never does (CDN blocked), show everything.
+        document.documentElement.classList.add('js');
+        setTimeout(function () { var h = document.documentElement; if (!h.classList.contains('anim')) h.classList.add('no-anim'); }, 4000);
+    </script>
+</head>
+<body class="page-about">
+<!-- Page transition curtain -->
+<div class="curtain" aria-hidden="true"></div>
+
+<!-- ===== TOP BAR ===== -->
+<header class="topbar">
+    <a href="../" class="topbar__logo">Abdul Moiz Ansari</a>
+    <div class="topbar__actions">
+                <a href="../assets/resume/abdul-moiz-ansari-resume.pdf" class="btn btn--dark topbar__cv" download aria-label="Download CV"><span class="topbar__cv-text">Download CV</span> <span class="btn__ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg></span></a>
+                <a href="#contact" class="btn btn--lime topbar__cta" data-scroll-to>Contact <span class="btn__ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+    </div>
+</header>
+
+<!-- ===== QUICK INFO (side tab + panel) ===== -->
+<button type="button" class="sidetab" data-qi-open aria-controls="quickInfo" aria-expanded="false">Quick info</button>
+<div class="qi" id="quickInfo" aria-hidden="true">
+    <div class="qi__overlay" data-qi-close></div>
+    <aside class="qi__panel" role="dialog" aria-label="Quick info">
+        <button type="button" class="qi__close" data-qi-close aria-label="Close"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+        <h2 class="qi__title">Quick info</h2>
+                    <p class="qi__status"><span class="qi__dot"></span><span class="text-shine">Available for new projects</span></p>
+                <dl class="qi__list">
+            <div><dt>Based in</dt><dd>Karachi, Pakistan</dd></div>
+            <div><dt>Focus</dt><dd>Custom frontend · React.js · WordPress · Graphic design</dd></div>
+            <div><dt>Email</dt><dd><a href="mailto:ansarimoiz671@gmail.com">ansarimoiz671@gmail.com</a></dd></div>
+        </dl>
+                <div class="qi__social">
+                            <a href="https://www.instagram.com/moizzzzhere" target="_blank" rel="noopener" aria-label="Instagram"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+                            <a href="https://www.behance.net/ansarimoiz5192" target="_blank" rel="noopener" aria-label="Behance"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7h5a2.5 2.5 0 0 1 0 5H3zM3 12h5.5a2.5 2.5 0 0 1 0 5H3zM3 7v10M14 8h5M14 14h7a3.5 3.5 0 1 0-1 2.5"/></svg></a>
+                    </div>
+                <div class="qi__actions">
+            <a href="mailto:ansarimoiz671@gmail.com" class="btn btn--lime">Start a project <span class="btn__ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+                        <a href="../assets/resume/abdul-moiz-ansari-resume.pdf" class="btn btn--outline" download>Download CV <span class="btn__ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg></span></a>
+                    </div>
+    </aside>
+</div>
+
+<!-- ===== BOTTOM DOCK NAV ===== -->
+<nav class="dock" aria-label="Main">
+    <span class="dock__pill" aria-hidden="true"></span>
+    <a href="../" class="dock__link">Home</a>
+    <a href="../works/" class="dock__link">Works</a>
+    <a href="../about/" class="dock__link active">About</a>
+</nav>
+
+<main id="main">
+
+<section class="ahero">
+    <h1 class="ahero__title">
+        <span class="line"><span>Living and breathing</span></span>
+        <span class="line"><span>web design</span></span>
+    </h1>
+    <p class="ahero__since">since 2016</p>
+
+    <div class="fan" data-fan>
+                <figure class="fan__card" style="--i:-2"><img src="../assets/img/web/optimized/1.jpg" alt="" loading="lazy"></figure>
+                <figure class="fan__card" style="--i:-1"><img src="../assets/img/web/optimized/2.jpg" alt="" loading="lazy"></figure>
+                <figure class="fan__card" style="--i:0"><img src="../assets/img/web/optimized/3.jpg" alt="" loading="lazy"></figure>
+                <figure class="fan__card" style="--i:1"><img src="../assets/img/web/optimized/4.jpg" alt="" loading="lazy"></figure>
+                <figure class="fan__card" style="--i:2"><img src="../assets/img/web/optimized/5.jpg" alt="" loading="lazy"></figure>
+            </div>
+</section>
+
+<section class="abio">
+    <p class="abio__lead" data-reveal>10+ years of experience building React.js apps, WordPress websites and brand visuals for clients in Pakistan and Europe.</p>
+    <p class="statement statement--dark" data-words>I help companies worldwide create <em>tailor-made</em> websites — designed, built and optimised in a <em>single</em> workflow, with <em>quality</em> at the core.</p>
+        <div class="abio__cv" data-reveal>
+        <a href="../assets/resume/abdul-moiz-ansari-resume.pdf" class="btn btn--dark" download>Download CV <span class="btn__ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg></span></a>
+    </div>
+    </section>
+
+<section class="help">
+    <h2 class="help__title" data-reveal>I can help you with</h2>
+    <ol class="help__list">
+                <li class="help__item" data-reveal>
+            <span class="help__num">01</span>
+            <h3>Custom frontend</h3>
+            <p>Hand-coded websites built from scratch in HTML, CSS and JavaScript — no templates, with smooth GSAP scroll animations, micro-interactions and pixel-perfect, responsive layouts.</p>
+        </li>
+                <li class="help__item" data-reveal>
+            <span class="help__num">02</span>
+            <h3>React.js</h3>
+            <p>Scalable React frontends with hooks, React Router, reusable components and REST API integration — for web apps, dashboards and content platforms.</p>
+        </li>
+                <li class="help__item" data-reveal>
+            <span class="help__num">03</span>
+            <h3>WordPress</h3>
+            <p>Custom themes and plugins, WooCommerce, ACF and Elementor — responsive, SEO-friendly sites with 90+ PageSpeed scores.</p>
+        </li>
+                <li class="help__item" data-reveal>
+            <span class="help__num">04</span>
+            <h3>Graphic design</h3>
+            <p>Brand assets, marketing creatives, social media graphics and UI mockups in Photoshop, Illustrator and Figma.</p>
+        </li>
+            </ol>
+</section>
+
+<section class="exp">
+    <h2 class="help__title" data-reveal>Experience</h2>
+    <ol class="exp__list">
+                <li class="exp__item" data-reveal>
+            <span class="exp__years">2022 – Present</span>
+            <h3>React Frontend / WordPress Developer / Graphic Designer<span class="exp__co">Ranqinxz — Germany (Remote)</span></h3>
+            <p>React.js web apps and WordPress websites for European clients, plus brand and UI design — design and development in one workflow.</p>
+        </li>
+                <li class="exp__item" data-reveal>
+            <span class="exp__years">2022 – 2024</span>
+            <h3>Sr. Frontend / WordPress Developer<span class="exp__co">Software One Pvt Ltd — Karachi</span></h3>
+            <p>Delivered 30+ responsive, SEO-friendly WordPress websites with custom themes and plugins, and supported junior developers.</p>
+        </li>
+                <li class="exp__item" data-reveal>
+            <span class="exp__years">2021 – 2022</span>
+            <h3>Sr. Frontend / WordPress Developer<span class="exp__co">The Softcube Pvt Ltd — Karachi</span></h3>
+            <p>Custom themes and plugins for eCommerce, real estate, healthcare and service clients, from Figma/PSD to deployment.</p>
+        </li>
+                <li class="exp__item" data-reveal>
+            <span class="exp__years">2020 – 2021</span>
+            <h3>Frontend Developer<span class="exp__co">Real Human Welfare Foundation — Karachi</span></h3>
+            <p>Frontends for NGO platforms — job portals, medical assistance systems and emergency response dashboards.</p>
+        </li>
+                <li class="exp__item" data-reveal>
+            <span class="exp__years">2019 – 2020</span>
+            <h3>WordPress / Frontend Developer<span class="exp__co">Mind Aqua — Karachi</span></h3>
+            <p>Custom WordPress themes built from scratch with PHP, Bootstrap and jQuery.</p>
+        </li>
+                <li class="exp__item" data-reveal>
+            <span class="exp__years">2019</span>
+            <h3>WordPress Developer<span class="exp__co">Just Digital Pvt Ltd — Karachi</span></h3>
+            <p>Client websites built with Divi and Avada, customised to each brand.</p>
+        </li>
+                <li class="exp__item" data-reveal>
+            <span class="exp__years">2016 – 2019</span>
+            <h3>Frontend Developer<span class="exp__co">Ignytes Agency — Karachi</span></h3>
+            <p>Started as an intern and grew into a full-time frontend developer working on sites for small businesses and startups.</p>
+        </li>
+            </ol>
+</section>
+
+<section class="skills">
+    <h2 class="help__title" data-reveal>Skills &amp; education</h2>
+    <dl class="skills__list">
+                <div data-reveal><dt>Frontend</dt><dd>HTML5, CSS3, JavaScript (ES6+), React.js, React Router, Bootstrap, jQuery, GSAP</dd></div>
+                <div data-reveal><dt>CMS</dt><dd>WordPress (custom themes &amp; plugins), WooCommerce, Elementor, WPBakery, ACF</dd></div>
+                <div data-reveal><dt>Design</dt><dd>Adobe Photoshop, Adobe Illustrator, Adobe XD, Figma, Canva, CapCut, Filmora</dd></div>
+                <div data-reveal><dt>Tools</dt><dd>Claude Code, ChatGPT, Webpack, Chrome DevTools, cPanel, WP Rocket, Cloudflare, Git, GitHub</dd></div>
+                <div data-reveal><dt>Backend</dt><dd>PHP, REST APIs, AJAX, MySQL</dd></div>
+                <div data-reveal><dt>Education</dt><dd>Diploma in Software Engineering — Aptech (2016 – 2019)</dd></div>
+            </dl>
+</section>
+
+<section class="values">
+    <figure class="values__photo"><img src="../assets/img/about.jpg" alt="Abdul Moiz Ansari" loading="lazy"></figure>
+    <div class="values__text">
+        <div class="values__group">
+            <h3 class="values__label">Approach</h3>
+            <p class="values__big" data-words>Always <em>curious,</em> always <em>learning,</em> enjoying every step of the process. Even the messy middle.</p>
+        </div>
+        <div class="values__group">
+            <h3 class="values__label">Values</h3>
+            <p class="values__big" data-words><em>Content</em> drives good design.</p>
+            <p class="values__big" data-words>Good design isn’t just a pretty picture. It’s a system of <em>decisions</em> rooted in <em>logic</em> and <em>empathy.</em></p>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<!-- ===== CONTACT / FOOTER ===== -->
+<footer class="contact" id="contact">
+    <div class="contact__inner">
+        <h2 class="contact__title" data-reveal>
+            <span class="contact__l1">Let’s work</span>
+            <img class="contact__avatar" src="../assets/img/avatar.jpg" alt="Abdul Moiz Ansari" loading="lazy">
+            <span class="contact__l2">together</span>
+        </h2>
+        <p class="contact__label" data-reveal>Drop me an email:</p>
+        <div class="contact__mail" data-reveal>
+            <a href="mailto:ansarimoiz671@gmail.com">ansarimoiz671@gmail.com</a>
+            <button type="button" class="contact__copy" data-copy="ansarimoiz671@gmail.com" aria-label="Copy email address">
+                <span class="contact__copy-ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg></span>
+                <span class="contact__copy-ok"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"/></svg></span>
+            </button>
+        </div>
+                <div class="contact__cv" data-reveal>
+            <a href="../assets/resume/abdul-moiz-ansari-resume.pdf" class="btn btn--lime" download>Download my CV <span class="btn__ic"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg></span></a>
+        </div>
+            </div>
+    <div class="contact__bottom">
+        <span>©2026 Abdul Moiz Ansari</span>
+        <div class="social">
+                            <a href="https://www.instagram.com/moizzzzhere" target="_blank" rel="noopener" aria-label="Instagram"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+                            <a href="https://www.behance.net/ansarimoiz5192" target="_blank" rel="noopener" aria-label="Behance"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7h5a2.5 2.5 0 0 1 0 5H3zM3 12h5.5a2.5 2.5 0 0 1 0 5H3zM3 7v10M14 8h5M14 14h7a3.5 3.5 0 1 0-1 2.5"/></svg></a>
+                    </div>
+    </div>
+</footer>
+
+<div class="toast" role="status" aria-live="polite"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.3.3/dist/lenis.min.js"></script>
+<script src="../assets/js/main.js?v=5"></script>
+</body>
+</html>
